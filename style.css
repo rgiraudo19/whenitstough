@@ -1,0 +1,58 @@
+img {
+    width: 250px;
+}
+body {
+    text-align: center;
+}
+body {
+    text-align: center;
+    font-family: "Helvetica";
+    color:#ffcce6;
+    background: black;
+    background: #009933;
+    background-position: left top;
+    background-size: cover;
+    background-image: url(http://i0.kym-cdn.com/entries/icons/original/000/003/022/wISx2Jj91qhyzqyz10Muv1jbo1_500.jpg);
+    background-color: #cccccc;
+    background-attachment: fixed;
+}
+#advice {
+  border-radius: 14px;
+  background-color: #b3b3cc;
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 5px #999;
+}
+
+#advice:hover {background-color: #8585ad}
+
+#advice:active {
+  background-color: #8585ad;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);}
+  
+#returnbtn {
+  border-radius: 14px;
+  background-color: #32a8db;
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 5px #999;
+}
+
+#returnbtn:hover {background-color: #8585ad}
+
+#returnbtn:active {
+  background-color: #8585ad;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);}
+  
+#returnbtn {
+      position:absolute;
+    transition: 0s ease;
+    top: 2%;
+    left: 2%;
+}
