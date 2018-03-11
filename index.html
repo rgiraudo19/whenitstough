@@ -9,14 +9,14 @@
     </head>
     <body>
         <img src="http://alpestravel.com/wp-content/uploads/2016/08/Early-Bird.png">
-        <h1 style="font-size:36px"> when the going gets tough... </h1>
-         <p id ="text"> </p>
+        <h1 style="font-size:48px"> when the going gets tough... </h1>
+         <p id ="text" style="font-size:36px">the tough get going.</p>
         
         <button id=advice onclick="GiveAdvice()">advice?</button>
         
         <script>
         function GiveAdvice(){
-            var endings = ["the chickens before they hatch","perfect","come to an end","don't fix it","don't a right","bite the hand that feeds you","steal someone's thunder","there's a fire"];
+            var endings = ["the chickens before they hatch.","perfect.","come to an end.","don't fix it.","don't a right.","bite the hand that feeds you.","steal someone's thunder.","there's a fire."];
             var rand = Math.floor(Math.random() * endings.length);
             document.getElementById("text").innerHTML = endings[rand];
         }
