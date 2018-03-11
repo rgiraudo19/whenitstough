@@ -5,15 +5,21 @@
          <div> <button id="returnbtn" onclick="window.location.href='http://www.discoverlife.org/ed/tg/Building_Web_Pages/html_tags.html#html_file_structure'">Return</button>
            <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
            </div>
-      <script src="main.js"></script>
         <title>The Early Bird</title>
     </head>
     <body>
         <img src="http://alpestravel.com/wp-content/uploads/2016/08/Early-Bird.png">
         <h1 style="font-size:36px"> when the going gets tough... </h1>
-        <button id="advice">advice?</button>
-        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-        <script src="main.js"></script>
+         <p id ="text"> </p>
+        
+        <button id=advice onclick="GiveAdvice()">advice?</button>
+        
+        <script>
+        function GiveAdvice(){
+            var endings = ["the chickens before they hatch","perfect","come to an end","don't fix it","don't a right","bite the hand that feeds you","steal someone's thunder","there's a fire"];
+            var rand = Math.floor(Math.random() * endings.length);
+            document.getElementById("text").innerHTML = endings[rand];
+        }
+        </script>
     </body>
 </html>
-
